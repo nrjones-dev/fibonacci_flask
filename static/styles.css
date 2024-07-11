@@ -1,0 +1,54 @@
+.titillium-web-bold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+
+}
+
+.titillium-web-regular {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.titillium-web-light-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 15px;
+  text-align: center;
+  font-size: 35px;
+
+}
+
+/* Create a central column */
+.column {
+  float: none;
+  width: 100%;
+  padding: 10px;
+  height: 100px;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+}
