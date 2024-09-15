@@ -23,8 +23,7 @@ def index():
     return render_template("index.html", count=count, fib_num=fib_num)
 
 
-# implement memoization
-def fibonacci(count):
+def fibonacci(count: int) -> int:
     if count <= 0:
         return 0
     elif count == 1:
