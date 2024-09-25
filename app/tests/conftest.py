@@ -13,7 +13,7 @@ def client():
         yield client
 
 
-def text_index_initial(client):
+def test_index_initial(client):
     response = client.get("/")
     assert response.status_code == 200
     assert b"Fibonacci number: 0" in response.data
