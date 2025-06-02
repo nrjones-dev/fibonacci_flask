@@ -1,9 +1,10 @@
-from flask import Flask, render_template, session
 from datetime import datetime
+
+from flask import Flask, render_template, session
 
 app = Flask(__name__)
 
-app.secret_key = "0112"
+app.secret_key = "0112"  # Should be stored in .env for sensitive projects.
 
 
 @app.context_processor
